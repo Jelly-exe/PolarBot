@@ -7,7 +7,7 @@ import time
 Client = discord.Client()
 client = commands.Bot(command_prefix = "!")
 
-chat_filter = ["FUCK","FUC","FUCK","SHIT","WANKER","CUNT","WANK","CUM","FUCKER"]
+chat_filter = []
 bypass_list = ["278548721778688010"]
 
 @client.event
